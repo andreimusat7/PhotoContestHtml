@@ -1,0 +1,185 @@
+﻿/* ####################### LIGHTBOX OVERRIDE #######################################*/
+SPAN.imgnolb{margin-bottom: 0px; display: block; margin-right: 3px; color: #6c6c6c; height: 15px; line-height: 14px;font-size: 15px;} /*In lightbox*/
+.photoheader{height:40px; background:#e0e0e0; padding:10px;}
+.phototext{margin-top: 10px; color: #6c6c6c;}
+.photocategory{display:block;background:#e0e0e0; height:10px; padding-left:10px; padding-right:10px;}
+.photocategorytxt{color: #6c6c6c;}
+
+.photofull{ cursor:pointer; color:#635E9A; font: normal 1.5em/15px Calibri; padding:0 4px;}
+.album{height:15px; font:normal 1.5em/5px Calibri; line-height:15px; }
+
+/*  // Predefined colors*/
+.blue{color:#74bee9 !important;}
+.green{color:#74c043 !important;}
+.yellow{color:#ffc20c !important;}
+.orange{color:#f5821f !important;}
+.purple{color:#5a3396 !important;}
+
+.popline{background:url(../Images/popline.gif) repeat-x; display:block; height:3px;margin-left: 4px; margin-right: 4px;}
+.photolike{width: 100px;
+height: 25px;
+background: #6c6c6c;
+color: #fff;
+font: normal 1.5em/25px Calibri;
+padding-right: 3px;
+margin-right: 5px; cursor:pointer;}
+
+.photolikepress{width: 99px;
+height: 24px;
+background: #e0e0e0;
+color: #6c6c6c;
+font: normal 1.5em/25px Calibri;
+padding-right: 3px;
+margin-right: 5px; border:1px solid #6c6c6c; display:none; cursor:pointer;}
+
+.lbtitle{font:normal 2.0em/20px Calibri; color:#6c6c6c; display:block;width: 100%; text-align: right; padding:0 4px;}
+.lbname{display:block; font:normal 1.3em/13px Calibri; color:#6c6c6c;  width:50%; text-align:right; padding:0 4px;}
+.lb-detailsbottom {
+  width: 100%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+  margin-top:5px;
+  display:block;
+}
+
+/* ####################### DROPDOWN OVERRIDE ###########################################*/
+/*1.GENERAL*/
+.selectBox-options, .selectBox-options LI, .selectBox-options LI A{border:0px}
+
+.selectBox-options LI.selectBox-selected A {
+    background-color: #C8DEF4;
+}
+.selectBox-options, .selectBox-options LI, .selectBox-options LI A{color:#6c6c6c}
+
+/*2.  ################################################# LOG IN FORM CONTENT */
+DIV.FormContent .selectBox-dropdown {min-width: 365px;position: relative;text-align: left;color: #6c6c6c;margin-left: 10px;margin-top: 0px;background: #fff;display: inline-block;cursor: pointer;
+height: 40px;font:normal 2.0em/40px Calibri; border:0px;}
+
+DIV.FormContent .selectBox-dropdown .selectBox-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+    background: url(../Images/icons_buttons.png) no-repeat;
+    background-position : -983px -209px;
+}
+DIV.FormContent .selectBox-menuShowing .selectBox-arrow 
+{
+    background: url(../Images/purpure_up.gif) no-repeat;
+}
+
+
+.LogInForm-selectBox-dropdown-menu LI A {/*LOG IN FORM*/
+    line-height: 2 !important;
+    padding: 0 .5em;
+    white-space: nowrap;
+    overflow: hidden;
+    background: 6px center no-repeat;
+    border:0px;
+    font:normal 1.4em/14px Calibri;
+}
+
+
+.LogInForm-selectBox-dropdown-menu .selectBox-options LI.selectBox-selected A {
+    background-color: #E0E0E0;
+}
+
+
+/* END ################################################# LOG IN FORM CONTENT */
+
+
+/*3.  ############################################  POPUP CONTENT*/
+DIV.pcontent .selectBox-dropdown {
+    min-width: 274px;
+    position: relative;
+    line-height: 23px;
+    text-decoration: none;
+    text-align: left;
+    color: #6c6c6c;
+    outline: none;
+    vertical-align: middle;
+    margin-left:42px;
+    margin-top:0px;
+    background:#fff;
+    display: inline-block;
+    cursor: pointer;
+    height:23px;
+    font:normal 1.6em/23px Calibri;
+    border:0px;
+}
+DIV.pcontent .selectBox-dropdown .selectBox-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22px;
+    height: 100%;
+    background: url(../Images/icons_buttons.png) no-repeat;
+background-position: -746px -247px;
+}
+
+DIV.pcontent .selectBox-menuShowing .selectBox-arrow 
+{
+   background: url(../Images/icons_buttons.png) no-repeat;
+   background-position  : -900px -225px;
+}
+
+DIV.pcontent .selectBox-dropdown .selectBox-label{width:100% !important;}
+.UploadForm-selectBox-dropdown-menu .selectBox-options, .selectBox-options LI, .selectBox-options LI A{font-size:12px;}
+
+.PhotoRate-selectBox-dropdown-menu .UploadForm-selectBox-dropdown-menu .selectBox-options, .selectBox-options LI A {border-top:0px;}
+
+/*  END   ############################################  POPUP CONTENT*/
+
+
+
+/*4. ############################################## PHOTO GALLERY RANK RATE*/
+DIV.category .selectBox-dropdown {
+    min-width: 150px;
+    position: relative;
+    line-height: 23px;
+    text-decoration: none;
+    text-align: left;
+    color: #75aee3;
+    outline: none;
+    vertical-align: middle;
+    margin-left:10px;
+    margin-top:8px;
+    background:#E1E1E1;
+    display: inline-block;
+    cursor: pointer;
+    height:23px;
+    padding-left:5px; border:0px;
+}
+DIV.category .selectBox-dropdown .selectBox-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22px;
+    height: 100%;
+    background: url(../Images/icons_buttons.png) no-repeat;
+background-position: -746px -247px;
+}
+
+DIV.category .selectBox-menuShowing .selectBox-arrow {background: url(../Images/icons_buttons.png) no-repeat; background-position  : -900px -225px;}
+.PhotoRate-selectBox-dropdown-menu .UploadForm-selectBox-dropdown-menu .selectBox-options, .selectBox-options LI, .selectBox-options LI A{font-size:14px; cursor:pointer;}
+.PhotoRate-selectBox-dropdown-menu LI A{border-top:1px solid #6c6c6c;}
+/* END ############################################## PHOTO GALLERY RANK RATE*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

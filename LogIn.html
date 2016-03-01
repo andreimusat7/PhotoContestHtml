@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta charset=utf-8>
+    <title>Photo Contest</title>
+    <link href="Styles/Reset.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Common.css" rel="stylesheet" type="text/css" />    
+    <link href="Styles/jquery.selectBox.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/lightbox.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/Custom.css" rel="stylesheet" type="text/css" />
+
+
+   <script src="Scripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+   
+    <script src="Scripts/buildlightbox.js" type="text/javascript"></script>
+    <script src="Scripts/lightbox-2.6.min.js" type="text/javascript"></script>
+    <script src="Scripts/gallery.js" type="text/javascript"></script>
+    <script src="Scripts/jquery.selectBox.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+      <div class="wrapper">
+        <div class="header L">
+            <div class="logo L">
+            </div>
+            <div class="about L">
+            </div>
+            <div class="welcome L">
+            </div>
+            <span class="welcomemsg L">Hello, <span class="username">Eyal Gotliv </span></span>
+            <div class="bluebutton R text">
+                Log Out</div>
+            <div class="bluebutton R text">
+                Login as different user</div>
+        </div>
+        <div class="menu L" id="nav">
+            <ul>
+                <li class="icon selected"><a href="#"></a></li>
+                <li><a href="#">My Photos</a></li>
+                <li><a href="#">Prizes</a></li>
+                <li><a href="#">Rules and regulations</a></li>
+                <li><a href="#">Help</a></li>
+                <li style="float: right"><a href="#">Grade photos</a></li>
+            </ul>
+        </div>
+        <div class="simpleshadow L"></div>
+
+        <div class="simplecontent L">
+               <span class="Login">Log In Form</span><br>
+               <span class="LoginDetails">Enter your details</span><br>
+
+               <form method="post" onsubmit="return validate(this);">
+               <div class="FormContent">
+               <span class="required L">*</span> <label for="country" class="loginlabels L">Country</label> <select class="LogInForm"> <option>country1</option>   <option>country2</option></select>
+               <br>
+               <div class="separator L h10"></div>
+               <span class="required L">*</span> <label for="tevaemployee" class="loginlabels L">TEVA Employee ID</label> <input type="text" id="tevaemployee" name="tevaemployee" class="logininput L">
+               
+               <div class="separator L h10"></div>
+               <span class="required L">*</span> <label for="emailaddress" class="loginlabels L">Email address</label> <input type="text" id="emailaddress" name="emailaddress" class="logininput L">
+               
+               <div class="separator L h10"></div>
+               <span class="FormText L">
+               Please note that only users who don't have a computer account in the teva system will be able to login using this page. If you are a user in the TEVA computer environment and you have a user name in the TEVA computer system then you can access this site from your own TEVA computer or login to windows on any TEVA computer with your own username and the system will identify you automatically.
+               </span>
+
+               <input type="submit" value="Submit" class="SubmitBtn R">
+
+               </form>
+              
+
+               </div>
+        </div>
+    </div><!-- end wrapper-->
+</body>
+</html>
